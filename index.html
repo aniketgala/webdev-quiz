@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Themed Interactive Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="stars"></div>
+    
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+        <div class="progress-text">
+            <span id="questionCounter">1</span> / <span id="totalQuestions">30</span>
+        </div>
+    </div>
+
+    <!-- Quiz Container -->
+    <div class="quiz-container" id="quizContainer">
+        <!-- Welcome Screen -->
+        <div class="welcome-screen" id="welcomeScreen">
+            <div class="welcome-content">
+                <h1 class="quiz-title">
+                    <i class="fas fa-code"></i>
+                    Web Dev Quiz Challenge
+                </h1>
+                <p class="quiz-subtitle">Test your web development knowledge with 30 hilarious questions!</p>
+                <div class="quiz-stats">
+                    <div class="stat">
+                        <i class="fas fa-question-circle"></i>
+                        <span>30 Questions</span>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-clock"></i>
+                        <span>No Time Limit</span>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-laugh"></i>
+                        <span>Pure Fun</span>
+                    </div>
+                </div>
+                <button class="start-btn" id="startBtn">
+                    <i class="fas fa-play"></i>
+                    Start Quiz
+                </button>
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div class="quiz-screen" id="quizScreen" style="display: none;">
+            <div class="question-container">
+                <h2 class="question-text" id="questionText"></h2>
+                <div class="options-container" id="optionsContainer">
+                    <!-- Options will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div class="results-screen" id="resultsScreen" style="display: none;">
+            <div class="results-content">
+                <div class="score-circle">
+                    <div class="score-number" id="scoreNumber">0</div>
+                    <div class="score-total">/ 30</div>
+                </div>
+                <h2 class="results-title" id="resultsTitle"></h2>
+                <p class="results-message" id="resultsMessage"></p>
+                <div class="results-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Correct: <span id="correctCount">0</span></span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-times-circle"></i>
+                        <span>Wrong: <span id="wrongCount">0</span></span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-percentage"></i>
+                        <span>Accuracy: <span id="accuracy">0</span>%</span>
+                    </div>
+                </div>
+                <div class="results-actions">
+                    <button class="restart-btn" id="restartBtn">
+                        <i class="fas fa-redo"></i>
+                        Take Quiz Again
+                    </button>
+                    <button class="share-btn" id="shareBtn">
+                        <i class="fas fa-share"></i>
+                        Share Results
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen" style="display: none;">
+        <div class="loading-spinner">
+            <i class="fas fa-code"></i>
+        </div>
+        <p>Loading awesome questions...</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
