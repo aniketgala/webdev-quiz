@@ -1,304 +1,612 @@
-{
-  "questions": [
-    {
-      "question": "What's the most honest thing a developer can say about their CSS?",
-      "options": [
-        "I know exactly why it works",
-        "I have no idea why it works, but it does",
-        "It's perfectly organized and maintainable",
-        "I never copy-paste from Stack Overflow"
-      ],
-      "correct": "I have no idea why it works, but it does"
-    },
-    {
-      "question": "Why don't HTML developers ever get locked out?",
-      "options": [
-        "They always use strong passwords",
-        "They know all the escape sequences",
-        "They always have the right <key>",
-        "They never close their <door>"
-      ],
-      "correct": "They never close their <door>"
-    },
-    {
-      "question": "What's the developer's favorite way to center a div?",
-      "options": [
-        "display: flex; justify-content: center; align-items: center;",
-        "Pray to the CSS gods and use margin: auto;",
-        "Google it for the 847th time",
-        "All of the above"
-      ],
-      "correct": "All of the above"
-    },
-    {
-      "question": "What happens when you fix one bug in JavaScript?",
-      "options": [
-        "Your code becomes perfect",
-        "Two more bugs appear",
-        "You become a senior developer",
-        "The universe achieves balance"
-      ],
-      "correct": "Two more bugs appear"
-    },
-    {
-      "question": "How do you comfort a JavaScript bug?",
-      "options": [
-        "console.log('There, there')",
-        "Try/catch it in a hug",
-        "Promise it will be resolved",
-        "Tell it undefined is not a function of you"
-      ],
-      "correct": "console.log('There, there')"
-    },
-    {
-      "question": "What's the difference between Java and JavaScript?",
-      "options": [
-        "Java is to JavaScript as Car is to Carpet",
-        "JavaScript is Java's younger, cooler sibling",
-        "Java requires more coffee to understand",
-        "There's no difference, it's all the same"
-      ],
-      "correct": "Java is to JavaScript as Car is to Carpet"
-    },
-    {
-      "question": "Why did the CSS developer break up with HTML?",
-      "options": [
-        "They had no class",
-        "There was no chemistry",
-        "They couldn't align their relationship",
-        "HTML was too semantic for them"
-      ],
-      "correct": "They couldn't align their relationship"
-    },
-    {
-      "question": "What's a developer's favorite type of party?",
-      "options": [
-        "A function call",
-        "An event handler",
-        "A callback party",
-        "A block party (with lots of curly braces)"
-      ],
-      "correct": "A callback party"
-    },
-    {
-      "question": "How many programmers does it take to change a light bulb?",
-      "options": [
-        "None, that's a hardware problem",
-        "One, but they'll rewrite the entire lighting system",
-        "404: Light bulb not found",
-        "It depends on the framework"
-      ],
-      "correct": "None, that's a hardware problem"
-    },
-    {
-      "question": "What do you call a programmer who doesn't comment their code?",
-      "options": [
-        "A mystery writer",
-        "Future enemy of themselves",
-        "Job security specialist",
-        "All of the above"
-      ],
-      "correct": "All of the above"
-    },
-    {
-      "question": "Why do React developers always seem so happy?",
-      "options": [
-        "They love their components",
-        "They're always in a good state",
-        "They know how to handle props-erly",
-        "They've mastered the art of hooks"
-      ],
-      "correct": "They're always in a good state"
-    },
-    {
-      "question": "What's the most terrifying thing in web development?",
-      "options": [
-        "A deadline",
-        "Internet Explorer support",
-        "A client saying 'Can you make it pop more?'",
-        "Merging branches on Friday afternoon"
-      ],
-      "correct": "Merging branches on Friday afternoon"
-    },
-    {
-      "question": "How do you explain APIs to a non-technical person?",
-      "options": [
-        "It's like a waiter at a restaurant",
-        "It's magic, don't question it",
-        "It's the internet's way of gossiping",
-        "It's when computers have a polite conversation"
-      ],
-      "correct": "It's like a waiter at a restaurant"
-    },
-    {
-      "question": "What's the developer's response to 'It works on my machine'?",
-      "options": [
-        "Then we'll ship your machine",
-        "Have you tried turning it off and on again?",
-        "Must be a user error",
-        "Let's dockerize your machine"
-      ],
-      "correct": "Then we'll ship your machine"
-    },
-    {
-      "question": "Why don't developers trust stairs?",
-      "options": [
-        "They prefer elevators (lifts)",
-        "They're always up to something",
-        "Because they're always debugging steps",
-        "They know about infinite loops"
-      ],
-      "correct": "Because they're always debugging steps"
-    },
-    {
-      "question": "What's the first rule of web development?",
-      "options": [
-        "Always blame the browser",
-        "It's not a bug, it's a feature",
-        "Test in production",
-        "Never trust user input"
-      ],
-      "correct": "Never trust user input"
-    },
-    {
-      "question": "How does a developer fix a relationship?",
-      "options": [
-        "Try to catch the exception",
-        "Refactor the entire relationship",
-        "Add more debugging statements",
-        "Check if it's undefined"
-      ],
-      "correct": "Try to catch the exception"
-    },
-    {
-      "question": "What's the most used JavaScript method?",
-      "options": [
-        "console.log()",
-        "stackoverflow.copy()",
-        "panicMode.activate()",
-        "hopeItWorks()"
-      ],
-      "correct": "console.log()"
-    },
-    {
-      "question": "Why did the developer quit their job?",
-      "options": [
-        "They didn't get arrays",
-        "The company had no class",
-        "They couldn't handle the pressure",
-        "Their boss was null and void"
-      ],
-      "correct": "They didn't get arrays"
-    },
-    {
-      "question": "What's the developer's favorite exercise?",
-      "options": [
-        "Git push-ups",
-        "Flexbox yoga",
-        "Runtime running",
-        "Debugging squats"
-      ],
-      "correct": "Git push-ups"
-    },
-    {
-      "question": "How do you know if someone is a frontend developer?",
-      "options": [
-        "They'll tell you within 5 minutes",
-        "They complain about IE while using Chrome",
-        "They have strong opinions about semicolons",
-        "They measure everything in pixels and ems"
-      ],
-      "correct": "They have strong opinions about semicolons"
-    },
-    {
-      "question": "What's the backend developer's motto?",
-      "options": [
-        "Make it work, then make it pretty",
-        "If you can see it, you're doing it wrong",
-        "200 OK is all that matters",
-        "The database knows best"
-      ],
-      "correct": "If you can see it, you're doing it wrong"
-    },
-    {
-      "question": "Why do developers prefer dark mode?",
-      "options": [
-        "It's easier on the eyes during 3 AM coding sessions",
-        "Light attracts bugs",
-        "They're secretly vampires",
-        "White background costs more electricity"
-      ],
-      "correct": "Light attracts bugs"
-    },
-    {
-      "question": "What's a developer's favorite type of music?",
-      "options": [
-        "Heavy metal (because of all the frameworks)",
-        "Hip-hop (for all the loops)",
-        "Jazz (it's all about improvisation)",
-        "Classical (everything has good composition)"
-      ],
-      "correct": "Jazz (it's all about improvisation)"
-    },
-    {
-      "question": "How many developers does it take to screw in a light bulb?",
-      "options": [
-        "None, they just redefine darkness as the new standard",
-        "One, but they'll create a framework for it first",
-        "Two, one to hold the bulb and one to rotate the house",
-        "That's a legacy lighting system, we need to rewrite it"
-      ],
-      "correct": "None, they just redefine darkness as the new standard"
-    },
-    {
-      "question": "What's the developer's favorite day of the week?",
-      "options": [
-        "Friday (deployment day, what could go wrong?)",
-        "Monday (fresh bugs to fix)",
-        "Saturday (no meetings, just code)",
-        "Any day ending in segmentation fault"
-      ],
-      "correct": "Friday (deployment day, what could go wrong?)"
-    },
-    {
-      "question": "Why don't developers ever get lost?",
-      "options": [
-        "They always know their current directory",
-        "They have GPS (Git Position System)",
-        "They follow the breadcrumbs in their code",
-        "They can always find their way home (directory)"
-      ],
-      "correct": "They always know their current directory"
-    },
-    {
-      "question": "What's the most romantic thing a developer can say?",
-      "options": [
-        "You're the only one in my git log",
-        "You make my heart race condition",
-        "I'd never throw an exception with you",
-        "You're my favorite dependency"
-      ],
-      "correct": "You're the only one in my git log"
-    },
-    {
-      "question": "How do developers stay fit?",
-      "options": [
-        "By running npm install",
-        "Doing daily scrums",
-        "Lifting heavy databases",
-        "Sprint planning"
-      ],
-      "correct": "Doing daily scrums"
-    },
-    {
-      "question": "What's the developer's last words before going live?",
-      "options": [
-        "What could possibly go wrong?",
-        "I tested it thoroughly on localhost",
-        "The staging environment is identical to production",
-        "I'm sure nobody will notice that bug"
-      ],
-      "correct": "What could possibly go wrong?"
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary-bg: linear-gradient(135deg, #0c0c0c 0%, #1a0033 50%, #0d1117 100%);
+    --secondary-bg: rgba(25, 25, 40, 0.9);
+    --accent-cyan: #00ffff;
+    --accent-purple: #8b5cf6;
+    --accent-lime: #32ff32;
+    --text-primary: #ffffff;
+    --text-secondary: #b3b3b3;
+    --error-red: #ff3366;
+    --success-green: #00ff88;
+    --shadow-glow: 0 0 20px rgba(139, 92, 246, 0.5);
+    --border-glow: 1px solid rgba(0, 255, 255, 0.3);
+}
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background: var(--primary-bg);
+    color: var(--text-primary);
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* Animated Background Stars */
+.stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.stars::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(2px 2px at 20px 30px, var(--accent-cyan), transparent),
+        radial-gradient(2px 2px at 40px 70px, var(--accent-purple), transparent),
+        radial-gradient(1px 1px at 90px 40px, var(--accent-lime), transparent),
+        radial-gradient(1px 1px at 130px 80px, var(--accent-cyan), transparent),
+        radial-gradient(2px 2px at 160px 30px, var(--accent-purple), transparent);
+    background-repeat: repeat;
+    background-size: 200px 100px;
+    animation: sparkle 20s linear infinite;
+}
+
+@keyframes sparkle {
+    from { transform: translateY(0px); }
+    to { transform: translateY(-100px); }
+}
+
+/* Progress Bar */
+.progress-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, var(--accent-cyan), var(--accent-purple), var(--accent-lime));
+    transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+}
+
+.progress-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 4px;
+    height: 100%;
+    background: white;
+    box-shadow: 0 0 10px var(--accent-cyan);
+}
+
+.progress-text {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 14px;
+    color: var(--text-secondary);
+    z-index: 1001;
+}
+
+/* Quiz Container */
+.quiz-container {
+    position: relative;
+    z-index: 10;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Welcome Screen */
+.welcome-screen {
+    text-align: center;
+    max-width: 600px;
+    animation: fadeInUp 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.quiz-title {
+    font-family: 'Orbitron', monospace;
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, var(--accent-cyan), var(--accent-purple), var(--accent-lime));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.quiz-title i {
+    margin-right: 15px;
+    color: var(--accent-cyan);
+}
+
+.quiz-subtitle {
+    font-size: 1.4rem;
+    color: var(--text-secondary);
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.quiz-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: var(--secondary-bg);
+    border-radius: 15px;
+    border: var(--border-glow);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.stat:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-glow);
+}
+
+.stat i {
+    font-size: 2rem;
+    color: var(--accent-purple);
+    margin-bottom: 10px;
+}
+
+.stat span {
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+/* Buttons */
+.start-btn, .restart-btn, .share-btn {
+    background: linear-gradient(45deg, var(--accent-purple), var(--accent-cyan));
+    border: none;
+    padding: 18px 40px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: 'Orbitron', monospace;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.start-btn:hover, .restart-btn:hover, .share-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(139, 92, 246, 0.5);
+}
+
+.start-btn:active, .restart-btn:active, .share-btn:active {
+    transform: scale(0.98);
+}
+
+.start-btn i, .restart-btn i, .share-btn i {
+    margin-right: 10px;
+}
+
+/* Quiz Screen */
+.quiz-screen {
+    max-width: 800px;
+    width: 100%;
+    animation: slideInRight 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.question-container {
+    background: var(--secondary-bg);
+    border-radius: 20px;
+    padding: 40px;
+    border: var(--border-glow);
+    backdrop-filter: blur(15px);
+    box-shadow: var(--shadow-glow);
+}
+
+.question-text {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: var(--text-primary);
+    text-align: center;
+}
+
+.options-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.option-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    color: var(--text-primary);
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: left;
+    position: relative;
+    backdrop-filter: blur(5px);
+}
+
+.option-btn:hover {
+    background: rgba(139, 92, 246, 0.2);
+    border-color: var(--accent-purple);
+    transform: translateX(10px);
+}
+
+.option-btn.correct {
+    background: rgba(0, 255, 136, 0.2);
+    border-color: var(--success-green);
+    animation: correctGlow 0.6s ease;
+}
+
+.option-btn.incorrect {
+    background: rgba(255, 51, 102, 0.2);
+    border-color: var(--error-red);
+    animation: incorrectShake 0.6s ease;
+}
+
+.option-btn.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+/* Results Screen */
+.results-screen {
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    animation: zoomIn 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.results-content {
+    background: var(--secondary-bg);
+    border-radius: 25px;
+    padding: 50px 40px;
+    border: var(--border-glow);
+    backdrop-filter: blur(15px);
+    box-shadow: var(--shadow-glow);
+}
+
+.score-circle {
+    width: 200px;
+    height: 200px;
+    border: 4px solid var(--accent-purple);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 30px;
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(0, 255, 255, 0.1));
+    position: relative;
+    animation: pulseGlow 2s ease-in-out infinite;
+}
+
+.score-number {
+    font-family: 'Orbitron', monospace;
+    font-size: 4rem;
+    font-weight: 900;
+    color: var(--accent-cyan);
+    line-height: 1;
+}
+
+.score-total {
+    font-size: 1.5rem;
+    color: var(--text-secondary);
+    font-weight: 300;
+}
+
+.results-title {
+    font-family: 'Orbitron', monospace;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    background: linear-gradient(45deg, var(--accent-cyan), var(--accent-purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.results-message {
+    font-size: 1.3rem;
+    color: var(--text-secondary);
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.results-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    flex: 1;
+}
+
+.stat-item i {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: var(--accent-lime);
+}
+
+.results-actions {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Loading Screen */
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    backdrop-filter: blur(10px);
+}
+
+.loading-spinner {
+    font-size: 4rem;
+    color: var(--accent-cyan);
+    animation: spin 2s linear infinite;
+    margin-bottom: 20px;
+}
+
+.loading-screen p {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+}
+
+/* Keyframe Animations */
+@keyframes glow {
+    from { filter: drop-shadow(0 0 20px rgba(0, 255, 255, 0.5)); }
+    to { filter: drop-shadow(0 0 30px rgba(139, 92, 246, 0.8)); }
+}
+
+@keyframes fadeInUp {
+    from { 
+        opacity: 0; 
+        transform: translateY(30px); 
     }
-  ]
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+@keyframes slideInRight {
+    from { 
+        opacity: 0; 
+        transform: translateX(50px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateX(0); 
+    }
+}
+
+@keyframes slideInLeft {
+    from { 
+        opacity: 0; 
+        transform: translateX(-50px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateX(0); 
+    }
+}
+
+@keyframes zoomIn {
+    from { 
+        opacity: 0; 
+        transform: scale(0.8); 
+    }
+    to { 
+        opacity: 1; 
+        transform: scale(1); 
+    }
+}
+
+@keyframes correctGlow {
+    0% { box-shadow: 0 0 0 rgba(0, 255, 136, 0.5); }
+    50% { box-shadow: 0 0 30px rgba(0, 255, 136, 0.8); }
+    100% { box-shadow: 0 0 15px rgba(0, 255, 136, 0.6); }
+}
+
+@keyframes incorrectShake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    75% { transform: translateX(10px); }
+}
+
+@keyframes pulseGlow {
+    0%, 100% { 
+        box-shadow: 0 0 20px rgba(139, 92, 246, 0.5); 
+        transform: scale(1);
+    }
+    50% { 
+        box-shadow: 0 0 40px rgba(0, 255, 255, 0.8); 
+        transform: scale(1.02);
+    }
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes countUp {
+    from { transform: scale(0.8); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .quiz-title {
+        font-size: 2.5rem;
+    }
+    
+    .quiz-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .quiz-stats {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .question-container {
+        padding: 25px;
+        margin: 0 10px;
+    }
+    
+    .question-text {
+        font-size: 1.4rem;
+    }
+    
+    .option-btn {
+        padding: 15px;
+        font-size: 1rem;
+    }
+    
+    .results-content {
+        padding: 30px 20px;
+        margin: 0 10px;
+    }
+    
+    .score-circle {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .score-number {
+        font-size: 3rem;
+    }
+    
+    .results-title {
+        font-size: 2rem;
+    }
+    
+    .results-stats {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .results-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .restart-btn, .share-btn {
+        width: 100%;
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .quiz-container {
+        padding: 10px;
+    }
+    
+    .quiz-title {
+        font-size: 2rem;
+    }
+    
+    .question-container {
+        padding: 20px;
+    }
+    
+    .question-text {
+        font-size: 1.2rem;
+    }
+    
+    .start-btn {
+        padding: 15px 30px;
+        font-size: 1.1rem;
+    }
+}
+
+/* Screen transitions */
+.screen-transition-out {
+    animation: slideOutLeft 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.screen-transition-in {
+    animation: slideInRight 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes slideOutLeft {
+    from { 
+        opacity: 1; 
+        transform: translateX(0); 
+    }
+    to { 
+        opacity: 0; 
+        transform: translateX(-100px); 
+    }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--accent-purple);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-cyan);
 }
